@@ -33,6 +33,20 @@
 
 ## 🔧 Реализованные функции
 
-1. double* fill_array_random(double* array, int size)
-Назначение: Заполнение массива случайными числами
-2. 
+1. double* fill_array_random(double* array, int size); 
+2. int find_max_element(double* array, int size, double* max_value);
+3. int count_positive_before_index(double* array, int size, int index);
+4. int print_array_double(double* array, int size);
+5. int delete_each_kth_element(double* array, int size, int k);
+6. double* insert_after_each_kth(double* array, int* size, int k, double value);
+7. double* create_random_array(int* size);
+8. int print_array_info(double* array, int size, const char* name);
+9. double* combine_arrays(double* a, int n, double* b, int m, double* c, int l, int* result_size);
+10. double calculate_cumulative_sum(double* array, int size);
+11. int* create_int_array(int size);
+int fill_int_array(int* array, int size);
+12. int find_max_in_range(int* array, int size, int K, int L);
+13. void print_int_array(int* array, int size);
+14. void execute_main_task();
+15. void execute_three_arrays_task();
+16. void execute_max_in_range_task();
