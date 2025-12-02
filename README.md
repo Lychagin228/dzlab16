@@ -34,19 +34,72 @@
 ## 🔧 Реализованные функции
 
 1. double* fill_array_random(double* array, int size); 
+
+Назначение: Заполнение массива случайными числами
+
 2. int find_max_element(double* array, int size, double* max_value);
+
+Назначение: Поиск максимального элемента в массиве и его индекса
+
 3. int count_positive_before_index(double* array, int size, int index);
+
+Назначение: Подсчет положительных элементов до указанного индекса
+
 4. int print_array_double(double* array, int size);
+
+Назначение: Вывод массива double на экран
+
 5. int delete_each_kth_element(double* array, int size, int k);
+
+Назначение: Удаление каждого k-го элемента
+
 6. double* insert_after_each_kth(double* array, int* size, int k, double value);
+
+Назначение: Вставка после каждого k-го элемента
+
 7. double* create_random_array(int* size);
+
+Назначение: Создание массива со случайными числами
+
 8. int print_array_info(double* array, int size, const char* name);
+
+Назначение: Вывод информации о массиве
+
 9. double* combine_arrays(double* a, int n, double* b, int m, double* c, int l, int* result_size);
+
+Назначение: Объединение трех массивов по правилам
+
 10. double calculate_cumulative_sum(double* array, int size);
+
+Назначение: Вычисление накопленной суммы массива
+
 11. int* create_int_array(int size);
-int fill_int_array(int* array, int size);
-12. int find_max_in_range(int* array, int size, int K, int L);
-13. void print_int_array(int* array, int size);
-14. void execute_main_task();
-15. void execute_three_arrays_task();
-16. void execute_max_in_range_task();
+
+Назначение: Создание целочисленного массива
+
+12. int fill_int_array(int* array, int size);
+
+Назначение: Заполнение целочисленного массива
+
+13. int find_max_in_range(int* array, int size, int K, int L);
+
+Назначение: Поиск максимума в диапазоне [K, L]
+
+14. void print_int_array(int* array, int size);
+
+Назначение: Вывод целочисленного массива
+
+15. void execute_main_task();
+
+Назначение: Выполнение основного задания
+
+16. void execute_three_arrays_task();
+
+Назначение: Выполнение задания с 3 массивами
+
+17. void execute_max_in_range_task();
+
+Назначение: Выполнение задания поиска максимума в диапазоне
+
+
+Подготовил Лычагин Антон. бИЦ-252.
