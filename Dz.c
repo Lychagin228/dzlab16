@@ -26,11 +26,11 @@ double calculate_cumulative_sum(double* array, int size);
 int* create_int_array(int size);
 int fill_int_array(int* array, int size);
 int find_max_in_range(int* array, int size, int K, int L);
-void print_int_array(int* array, int size);
+int print_int_array(int* array, int size);
 
-void execute_main_task();
-void execute_three_arrays_task();
-void execute_max_in_range_task();
+int execute_main_task();
+int execute_three_arrays_task();
+int execute_max_in_range_task();
 
 int main() {
     setlocale(LC_CTYPE, "RUS");
@@ -353,7 +353,7 @@ int find_max_in_range(int* array, int size, int K, int L) {
 }
 
 // Вывод целочисленного массива
-void print_int_array(int* array, int size) {
+int print_int_array(int* array, int size) {
     if (array == NULL || size <= 0) {
         printf("Массив пуст или некорректен!\n");
         return;
@@ -367,10 +367,12 @@ void print_int_array(int* array, int size) {
         }
     }
     printf("]\n");
+
+    return 0;
 }
 
 // Выполнение основного задания
-void execute_main_task() {
+int execute_main_task() {
     printf("\n=== ОСНОВНОЕ ЗАДАНИЕ ===\n");
 
     int size;
@@ -448,10 +450,12 @@ void execute_main_task() {
     }
 
     free(array);
+
+    return 0;
 }
 
 // Выполнение задания с 3 массивами
-void execute_three_arrays_task() {
+int execute_three_arrays_task() {
     printf("\n=== ЗАДАНИЕ С 3 МАССИВАМИ ===\n");
 
     int n, m, l;
@@ -512,10 +516,12 @@ void execute_three_arrays_task() {
     free(a);
     free(b);
     free(c);
+
+    return 0;
 }
 
 // Выполнение задания поиска максимума в диапазоне
-void execute_max_in_range_task() {
+int execute_max_in_range_task() {
     printf("\n=== ПОИСК МАКСИМУМА В ДИАПАЗОНЕ ===\n");
 
     int size;
@@ -561,4 +567,6 @@ void execute_max_in_range_task() {
     }
 
     free(array);
+
+    return 0;
 }
